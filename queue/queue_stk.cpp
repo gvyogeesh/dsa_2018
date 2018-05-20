@@ -32,11 +32,13 @@ int Myqueue::dequeue(){
             s2.push(ele);
         }
     }
-
-    item = s2.top();
-    s2.pop();
-    return item;
-
+    if(!s2.empty()){
+        item = s2.top();
+        s2.pop();
+        return item;
+    }
+    if(s1.empty() && s2.empty())
+        return -1;
 }
 int main(){
     Myqueue q;
