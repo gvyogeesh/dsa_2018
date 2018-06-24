@@ -1,0 +1,16 @@
+Dynamic Programming:
+General Powerful algorithm design technique.
+Specially good and intended for optimization problems.
+Eg:
+Minimization, Maximization
+
+"Careful bruteforce".(Try all possiblities carefully :) )
+
+Optimal substructure:
+
+A problem has a optimal substructure if an optimal solution can be
+constructed efficiently from optimal solutions of its sub problems.
+
+We can solve bigger problems given the solutions to its smaller sub
+problems.
+
